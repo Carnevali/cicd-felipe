@@ -27,4 +27,11 @@ public class CicdPetaApplicationTests {
 		assertEquals("X deve ser igual a 2", 2L, x);
 	}
 
+
+	@Test
+	public void teste3() {
+		long x = 3L;
+		assertEquals("X deve ser igual a 3", 3L, x);
+	}
+
 }
