@@ -19,4 +19,10 @@ public class Controller1 {
         return ResponseEntity.ok(retorno);
     }
 
+    @GetMapping("/teste3")
+    public ResponseEntity<Retorno> teste3() {
+        Retorno retorno = new Retorno("Maria", 22L, "Gerente");
+        return ResponseEntity.ok(retorno);
+    }
+
 }
