@@ -30,8 +30,8 @@ public class CicdPetaApplicationTests {
 
 	@Test
 	public void teste3() {
-		long x = 3L;
-		assertEquals("X deve ser igual a 3", 3L, x);
+		int x = 3;
+		assertEquals("X deve ser igual a 3", 3, x);
 	}
 
 
